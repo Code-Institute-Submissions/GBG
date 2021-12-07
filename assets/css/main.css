@@ -256,3 +256,31 @@ hr {
 }
 
 /* footer section */
+
+footer{
+    color: #1E375A;
+    /* background-color:#1E375A ; */
+    
+}
+
+footer .social{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-top: 10px;
+ 
+}
+footer p{
+    text-align: center;
+    margin: 10px;
+    top: 10px;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+footer h2{
+    color: #1E375A;
+    font-size: 20px;
+    text-align: center;
+}
