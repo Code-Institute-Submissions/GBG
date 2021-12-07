@@ -284,3 +284,38 @@ footer h2{
     font-size: 20px;
     text-align: center;
 }
+
+/* Media ques */
+
+/* Larger and medium screens size */
+@media screen and (max-width:1200px){
+
+    #ethos{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    #welcome{
+        padding: 30px;
+        margin: 0;
+    }
+    #about-left, #about-right{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about{
+
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr{
+        display: none;
+    }
+}
