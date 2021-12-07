@@ -34,11 +34,13 @@ h2 {
 #menu {
     font: 110%;
     letter-spacing: 4px;
+    text-decoration: none;
 }
 
 #menu,
 #logo {
     line-height: 80px;
+    text-decoration: none;
 }
 
 #menu li {
