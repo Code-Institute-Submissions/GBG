@@ -253,17 +253,19 @@ hr {
 
 /* Footer section */
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-medias{
+.social-medias {
     text-align: center;
 }
-.social-medias > li {
+
+.social-medias>li {
     display: inline;
 }
-.social-medias i{
+
+.social-medias i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
