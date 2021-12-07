@@ -250,3 +250,22 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
+/* Footer section */
+
+footer{
+    height: 150px;
+}
+
+.social-medias{
+    text-align: center;
+}
+.social-medias > li {
+    display: inline;
+}
+.social-medias i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: blue;
+}
