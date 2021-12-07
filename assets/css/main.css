@@ -11,6 +11,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 300;
     color: #1E375A;
+    background-color: rgba(135, 209, 222, 0.411);
 
 }
 
@@ -58,9 +59,6 @@ h2 {
     border-bottom: 1px rgb(0, 4, 255) solid;
 }
 
-.active {
-    border-bottom: 1px rgb(0, 4, 255) solid;
-}
 
 .cover-text,
 .cover-text h2 {
@@ -228,6 +226,7 @@ hr {
     box-sizing: border-box;
 }
 
+
 /* footer section */
 
 footer {
@@ -302,6 +301,8 @@ footer h2 {
     hr {
         display: none;
     }
+
+    
 }
 
 /* For medium screen sizes from 950px down & wide */
@@ -351,4 +352,72 @@ footer h2 {
         left: 0;
         width: 90%;
     }
+  
 }
+
+/* About us */
+
+
+
+.about-us{
+    position: absolute;
+    top: 150px;
+    width: fit-content;
+    text-align: center;
+    left: 500px;
+    margin: 0 auto;
+    padding: 0vh;
+    /* line-height: 35px; */
+    background-color: rgba(255, 255, 255, 0.226);
+    
+}
+blockquote{
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+
+    border-bottom: 1px solid #1E375A;
+    border-left: double 1px #1E375A;
+    border-right: double 1px #1E375A;
+    
+}
+
+article h1{
+    font-size: xxx-large;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: black solid 1px;
+    
+    
+}
+
+#get-in-touch{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: white;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(8, 4, 255);
+    margin: auto;
+    padding: 10px;
+    bottom: 10px;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 0 9px rgba(0, 4, 255, 0.185);
+    
+
+}
+#get-in-touch:hover{
+    background-color: rgb(0, 2, 150);
+    color: rgb(255, 255, 255);
+}
+
+#get-in-touch:active{
+    background-color: rgb(0, 2, 150);
+    color: rgb(255, 255, 255);
+    box-shadow:0 10pz rgb(0, 0, 94);
+    transform: translateY(4px);
+
+}
+
+
