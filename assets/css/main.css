@@ -67,9 +67,11 @@ a:hover{
 
 /* hero section */
 #hero-image{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background:url(../images/hero.jpg) no-repeat center center;
+    background:url(../images/hero2.jpg) no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* zoom effect when page is loading */
     animation-name: hero-zoom;
     animation-duration: 6s;
@@ -80,6 +82,7 @@ a:hover{
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
 /* zoom for hero image */
@@ -111,7 +114,7 @@ a:hover{
     padding-top: 50px;
     padding-left: 10px;
     
-    background-color: rgba(4, 205, 255, 0.308);
+    background-color: rgba(0, 0, 0, 0.438);
     bottom: 165px;
     left: 650px;
     font-size: xx-large;
@@ -124,6 +127,9 @@ a:hover{
 /* ethos */
 #ethos{
     height: 600px;
+    background-color: rgba(117, 117, 117, 0.13);
+    
+
 }
 
 #about-left{
