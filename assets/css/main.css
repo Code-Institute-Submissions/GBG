@@ -51,57 +51,64 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
-#menu
-a:hover{
-    border-bottom: 1px rgb(0, 4, 255) solid;
-}
-.active{
+
+#menu a:hover {
     border-bottom: 1px rgb(0, 4, 255) solid;
 }
 
-.cover-text, .cover-text h2{
+.active {
+    border-bottom: 1px rgb(0, 4, 255) solid;
+}
+
+.cover-text,
+.cover-text h2 {
 
     color: white;
-    
+
 }
 
 /* hero section */
-#hero-image{
+#hero-image {
+
     height: 700px;
     width: 100%;
-    background:url(../images/hero2.jpg) no-repeat center center;
+    background: url(../images/hero2.jpg) no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
+
     /* zoom effect when page is loading */
     animation-name: hero-zoom;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
-#hero{
+
+#hero {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
+
+
 }
 
 /* zoom for hero image */
 
-@keyframes hero-zoom{
-    from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
     }
-    to{
-        transform: scale(1.1);  
+
+    to {
+        transform: scale(1.1);
     }
 }
 
-.techma{
+.techma {
     color: red;
     font-size: xxx-large;
 }
 
-.cover-text{
+.cover-text {
     font-size: 120%;
     font-family: Raleway, sans-serif;
     text-transform: capitalize;
@@ -113,7 +120,7 @@ a:hover{
 
     padding-top: 50px;
     padding-left: 10px;
-    
+
     background-color: rgba(0, 0, 0, 0.438);
     bottom: 165px;
     left: 650px;
@@ -125,73 +132,81 @@ a:hover{
 
 
 /* ethos */
-#ethos{
+#ethos {
     height: 600px;
-    background-color: rgba(117, 117, 117, 0.13);
-    
+    /* background-color: rgba(117, 117, 117, 0.13); */
+
 
 }
 
-#about-left{
+#about-left {
     padding-left: 30px;
     width: 33%;
     float: left;
     /* background-color: rgb(88, 88, 255); */
 }
-#about-right{
+
+#about-right {
     padding-right: 30px;
     width: 33%;
     float: right;
-    
+
 }
-#center-about{
+
+#center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
-hr{
+
+hr {
     border-top: 2px solid black;
     width: 100%;
     margin: 5px;
 }
-.front-end{
-    text-align: center;
-}
-.back-end{
-    text-align: center;
-}
-.full-stack{
-    text-align: center;
-}
-.cloud-dev{
+
+.front-end {
     text-align: center;
 }
 
-.left-about-heading{
+.back-end {
+    text-align: center;
+}
+
+.full-stack {
+    text-align: center;
+}
+
+.cloud-dev {
+    text-align: center;
+}
+
+.left-about-heading {
     width: 60%;
     float: right;
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
-    
+
 
 }
 
-.right-about-heading{
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
-    
+
 }
-#welcome{
+
+#welcome {
     text-align: center;
-    margin:25px 0;
+    margin: 25px 0;
     font-size: 250%;
 }
 
-#circle-cont{
+#circle-cont {
     width: 400px;
     height: 400px;
     padding: 30px;
@@ -199,16 +214,39 @@ hr{
     border-color: silver;
     border-width: 2px;
     border-radius: 50%;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 70px;
 
 }
 
-#circle-bg{
+#circle-bg {
     background: url(../images/img2.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+/* our work */
+#our-work {
+    background-image: url(../images/work-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#our-work div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
