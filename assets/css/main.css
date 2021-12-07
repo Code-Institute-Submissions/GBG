@@ -228,21 +228,22 @@ hr {
 
 /* footer section */
 
-footer{
+footer {
     color: #1E375A;
     /* background-color:#1E375A ; */
-    
+
 }
 
-footer .social{
+footer .social {
     color: white;
     font-size: 30px;
     text-align: center;
     letter-spacing: 30px;
     margin-top: 10px;
- 
+
 }
-footer p{
+
+footer p {
     text-align: center;
     margin: 10px;
     top: 10px;
@@ -250,7 +251,7 @@ footer p{
     font-size: 30px;
 }
 
-footer h2{
+footer h2 {
     color: #1E375A;
     font-size: 20px;
     text-align: center;
@@ -259,26 +260,28 @@ footer h2{
 /* Media ques */
 
 /* Larger and medium screens size */
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) {
 
-    #ethos{
+    #ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
 
     }
 
-    #welcome{
+    #welcome {
         padding: 30px;
         margin: 0;
     }
-    #about-left, #about-right{
+
+    #about-left,
+    #about-right {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
 
         clear: both;
         width: 100%;
@@ -286,7 +289,7 @@ footer h2{
         padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
     }
 }
@@ -294,7 +297,7 @@ footer h2{
 /* For medium screen sizes from 950px down & wide */
 
 @media screen and (max-width: 950px) {
-    #menu{
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -302,14 +305,40 @@ footer h2{
         line-height: 25px;
     }
 
-    #cover-text{
+    #cover-text {
         left: 0;
 
     }
 
-    #ethos{
+    #ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .left-about-heading li,
+    .right-about-heading li {
+        text-align: center;
+        padding: 0 20px;
+        list-style: none;
+        left: 0;
+        width: 90%;
     }
 }
