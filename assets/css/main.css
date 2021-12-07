@@ -125,11 +125,11 @@ h2 {
     padding: 50px;
     margin: 20px;
 
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.589);
     bottom: 165px;
     left: 550px;
     font-size: xx-large;
-    border-radius: 40%;
+    border-radius: 25%;
 
     position: absolute;
 }
