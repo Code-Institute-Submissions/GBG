@@ -123,6 +123,7 @@ p {
     padding: 200px;
     background-color: rgb(0, 0, 0);
     opacity: 0.7;
+    height: 600px;
 }
 
 #showcase .showcase-content h1 {
