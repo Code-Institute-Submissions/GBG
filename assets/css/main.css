@@ -39,7 +39,16 @@ p {
 
 .lead{
     font-size: 20px;
-    
+    font-weight: bolder;
+    padding-top: 20px;
+    color:white;
+    opacity: 0.7;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), #ff962d71);
 }
 
 .btn{
@@ -47,10 +56,11 @@ p {
     font-size: 18px;
     color: rgb(0, 0, 0);
     background:#ff9e3d ;
-    padding: 13px 20px;
+    padding: 15px 20px;
     font-weight: bolder;
     border: none;
     border-radius: 30px;
+    margin-top: 10px;
     
 }
 
@@ -109,8 +119,8 @@ p {
 /* Showcase styling */
 
 #showcase {
-    background: url('../images/room3.jpg') no-repeat center center/cover;
-    /* height: 660px; */
+    background: url('../images/room1.jpg') no-repeat center center/cover;
+    height: 620px;
     width: 100%;
 
 }
@@ -121,9 +131,9 @@ p {
     color: #fff;
     text-align: center;
     padding: 200px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0);
     opacity: 0.7;
-    height: 600px;
+    height: 600px; */
 }
 
 #showcase .showcase-content h1 {
