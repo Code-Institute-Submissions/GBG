@@ -110,7 +110,7 @@ p {
 
 #showcase {
     background: url('../images/room3.jpg') no-repeat center center/cover;
-    height: 660px;
+    /* height: 660px; */
     width: 100%;
 
 }
