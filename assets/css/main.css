@@ -37,6 +37,28 @@ p {
     padding: 0 20px;
 }
 
+.lead{
+    font-size: 20px;
+    
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background:#ff9e3d ;
+    padding: 13px 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.text-primary {
+    color: #ff9e3d;
+}
+
+
 /* Navbar styling */
 
 #navbar {
@@ -81,4 +103,75 @@ p {
     letter-spacing: 0.3rem;
     font-size: 30px;
     font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+
+/* Showcase styling */
+
+#showcase {
+    background: url('../images/room3.jpg') no-repeat center center/cover;
+    height: 620px;
+    width: 100%;
+
+}
+
+
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 70px;
+    line-height: 1.2em;
+    
+}
+.hr-showcase{
+    width: 400px;
+    margin: auto;
+    background:#f7c08a;
+    
+    animation-name: hr-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* Zoom effect for the "hr" tag in the home page  */
+@keyframes hr-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+#showcase .showcase-content h1{
+    /* Animation zoom effect for the h1 when page loading */
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+/* Zoom for the h1 element in the showcase area */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
