@@ -180,3 +180,42 @@ p {
         transform: scale(1.1);
     }
 }
+
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(../images/hotelhistory.jpg) no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+.bg-dark{
+    background: rgb(34, 34, 34);
+    color: #fff;
+}
+
+.btn-light{
+    background: #fff;
+    color: #333;
+    
+}
+
+.para{
+    padding: 30px;
+}
+.heading-history{
+    font-size: 30px;
+}
