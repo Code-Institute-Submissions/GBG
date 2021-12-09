@@ -219,3 +219,35 @@ p {
 .heading-history{
     font-size: 30px;
 }
+
+
+/* Features section */
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box2{
+    background: #ff9e3d;
+    color: rgb(32, 32, 32);
+}
+.box i{
+    margin-bottom: 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Main-footer */
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+
+}
